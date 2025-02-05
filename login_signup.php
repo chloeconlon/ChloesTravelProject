@@ -7,8 +7,10 @@
     <title>Login and Signup</title>
 
     <style>
-        /* General Page Styling */
         body {
+            background-image: url("images/backgroundlogin.jpg");
+            background-position: center center;
+            background-attachment: fixed;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -18,13 +20,11 @@
             align-items: center;
             min-height: 100vh;
             background-color: #f0f8f0;
-            /* Light sage green for the background */
         }
 
         /* Navbar */
         .navbar {
             background-color: #8fbc8f;
-            /* Sage Green */
             padding: 15px 30px;
             width: 100%;
             display: flex;
@@ -48,7 +48,6 @@
 
         .navbar-right a:hover {
             background-color: #6c9e6c;
-            /* Darker sage green on hover */
         }
 
         .navbar-right a.active {
@@ -64,14 +63,13 @@
             border-radius: 15px;
             text-align: center;
             margin-top: 80px;
-            /* To compensate for the navbar height */
+
         }
 
         /* Form Heading */
         .container h2 {
             margin: 0 0 20px;
             color: #4f784f;
-            /* Dark sage green */
             font-size: 1.8rem;
         }
 

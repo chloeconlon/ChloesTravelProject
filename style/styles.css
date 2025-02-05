@@ -16,7 +16,6 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f9f9f9;
-    /* Light background color */
 }
 
 /* Login Container */
@@ -38,6 +37,8 @@ body {
     margin-bottom: 20px;
     font-size: 2rem;
 }
+
+
 
 /* Form Container */
 .form-container {
@@ -67,7 +68,6 @@ body {
 .submit-btn {
     padding: 12px;
     background-color: #8fbc8f;
-    /* Sage Green */
     color: white;
     border: none;
     border-radius: 8px;
@@ -76,10 +76,8 @@ body {
     transition: background-color 0.3s ease;
 }
 
-/* Submit Button Hover Effect */
 .submit-btn:hover {
     background-color: #6c9e6c;
-    /* Darker sage green on hover */
 }
 
 /* Link Styling */
@@ -127,7 +125,6 @@ body {
 
 .reviews-title {
     color: #8fbc8f;
-    /* Sage Green */
     font-size: 2rem;
     margin-bottom: 30px;
 }
@@ -164,7 +161,6 @@ body {
 
 .star {
     color: #ff9800;
-    /* Gold color for filled stars */
     margin-right: 5px;
 }
 
