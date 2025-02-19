@@ -1,3 +1,10 @@
+<?php
+if (!isset($_COOKIE["selected_avatar"])) {
+
+    //Set cookie for avatar ID
+    setcookie("selected_avatar", 0, time() + (86400 * 30), "/"); //Expires in 70 days
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -158,13 +165,7 @@
             alt="Animal Stars" width="130px">
     </span>
 
-    <?php
-    if (!isset($_COOKIE["selected_avatar"])) {
 
-        //Set cookie for avatar ID
-        setcookie("selected_avatar", 0, time() + (86400 * 30), "/"); //Expires in 70 days
-    }
-    ?>
     <!-- Main Content -->
     <div class="mainsection">
         <div class="text1">
