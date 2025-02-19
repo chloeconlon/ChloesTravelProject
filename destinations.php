@@ -173,5 +173,6 @@
         <p>© 2024 Chloe's Travel Project | Made with ❤️</p>
     </footer>
 </body>
+<script src="script.js"></script>
 
 </html>
