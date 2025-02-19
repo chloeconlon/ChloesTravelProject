@@ -142,14 +142,21 @@
     <div class="navbar">
         <div class="navbar-container">
             <div class="navbar-right">
-                <a href="index.html" class="active">Home</a>
+                <a href="index.php" class="active">Home</a>
                 <a href="animals.php">Animals</a>
                 <a href="animal_sightings.php">Animal Sightings</a>
                 <a href="reviews.php">Reviews</a>
                 <a href="login_signup.php">Login</a>
             </div>
         </div>
+        <div id="backdrop"></div>
+        <div id="modal_front" class="box3 div-border div-no-border form-container"></div>
+        <div id="image_modal" class="boc3a div-border div-no-border"></div>
     </div>
+    <span id="avatarimage">
+        <img onclick="showModalImages()" src="images/Avatars/avatar<?php echo $_COOKIE[" selected_avatar"] ?>.jpg"
+            alt="Animal Stars" width="130px">
+    </span>
 
     <!-- Main Content -->
     <div class="mainsection">

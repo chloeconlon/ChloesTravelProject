@@ -296,3 +296,20 @@ body {
 .favourite-box p:first-child {
     font-weight: bold;
 }
+
+
+/* AVATARS **********************/
+#image_modal {
+    display: none;
+    position: fixed;
+    background: white;
+    padding: 10px;
+    width: 750px;
+    min-height: 20vh;
+    top: 100px;
+    left: calc(10% - 140px);
+    z-index: 1;
+    text-align: center;
+    font-size: 20px;
+    border: #D6A0EB 10px solid;
+}

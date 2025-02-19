@@ -12,9 +12,9 @@
         <!-- Navbar -->
         <div class="navbar">
             <div class="navbar-container">
-                <!-- Navbar links -->
+
                 <div class="navbar-right">
-                    <a href="index.html">Home</a>
+                    <a href="index.php">Home</a>
                     <a href="animals.php"> Animals</a>
                     <a href="animal_sightings.php">Animal Sightings</a>
                     <a href="reviews.php" class="active">Reviews</a>
