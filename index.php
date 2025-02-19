@@ -1,10 +1,3 @@
-<?php
-if (!isset($_COOKIE["selected_avatar"])) {
-
-    //Set cookie for avatar ID
-    setcookie("selected_avatar", 0, time() + (86400 * 30), "/"); //Expires in 70 days
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -145,6 +138,13 @@ if (!isset($_COOKIE["selected_avatar"])) {
 </head>
 
 <body>
+    <?php
+    if (!isset($_COOKIE["selected_avatar"])) {
+
+        //Set cookie for avatar ID
+        setcookie("selected_avatar", 0, time() + (86400 * 30), "/"); //Expires in 70 days
+    }
+    ?>
     <!-- Navbar -->
     <div class="navbar">
         <div class="navbar-container">
