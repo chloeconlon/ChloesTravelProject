@@ -154,7 +154,7 @@
         <div id="image_modal" class="boc3a div-border div-no-border"></div>
     </div>
     <span id="avatarimage">
-        <img onclick="showModalImages()" src="images/Avatars/avatar<?php echo $_COOKIE[" selected_avatar"] ?>.jpg"
+        <img onclick="showModalImages()" src="images/Avatars/avatar<?php echo $_COOKIE["selected_avatar"] ?>.jpg"
             alt="Animal Stars" width="130px">
     </span>
 
